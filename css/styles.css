@@ -1,0 +1,187 @@
+
+body {
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#title {
+  color: #fff;
+  background-color: #ff4c68;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#intro {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  color: white;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+font-weight: bold; }
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light", sans-serif;
+}
+
+/* Download Button */
+.download-button {
+margin: 5% 3% 0% 5%;
+
+}
+
+
+
+/* Title Image */
+.title-image {
+  width: 40%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+  position: static;
+  transform: rotate(0);
+  margin-top: 2rem;
+}
+#title {
+  text-align: center;
+}
+}
+
+
+/* Feature Section*/
+.features {
+padding: 7% 15%;
+background-color: white;
+position: relative;
+}
+.freatureheads {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 1.5rem;
+  padding: 5%
+
+}
+
+h2 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+p {
+  color: gray;
+
+}
+
+.featicons {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.featicons:hover {
+  color: #ff4c68;
+}
+
+
+/* Testimonials Section */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+/* Press */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.card-deck {
+  text-align: center;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.card {
+  text-align: center;
+}
+.pricing-button {
+  padding: 0.5rem 30%;
+  border: solid;
+}
+
+.pricing-button: hover {
+  outline-color: inherit;
+}
+
+/* Call to Action */
+
+#cta {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 7% 15% 10%;
+}
+
+h3 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3rem;
+  color: #fff;
+}
+
+/* Footer Section */
+#footer {
+  text-align: center;
+  background-color: #fff;
+  padding: 1rem auto;
+}
+
+.fa-contact {
+padding: 1rem 1rem;
+
+}
